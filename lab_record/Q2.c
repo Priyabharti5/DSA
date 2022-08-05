@@ -15,7 +15,7 @@ int main(){
   n--;
   
   for(i=0;i<n;i++)
-    printf("%d ", arr[i]);   // Display in reverse order
+    printf("%d ", arr[i]);   
   return 0;
   
 }
