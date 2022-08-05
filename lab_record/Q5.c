@@ -8,7 +8,7 @@ insertion sort
 
   
 // A function to implement bubble sort
-void bubbleSort(int arr[], int n)
+void insertionSort(int arr[], int n)
 {
     int i, j,key;
     for (i = 1; i < n; i++)
@@ -30,7 +30,7 @@ int main(){
      for(i=0;i<n;i++){
         scanf("%d",arr+i);  
      }
-     bubbleSort(arr,n);     
+     insertionSort(arr,n);     
      for(i=0;i<n;i++)
      {
         printf("%d ",arr[i]);   
